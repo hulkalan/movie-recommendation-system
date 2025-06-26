@@ -45,13 +45,21 @@ A content-based movie recommender system built using **Python**, **Streamlit**, 
 ## 📂 Project Structure
 
 movie-recommendation-system/
+
 ├── app.py # Main Streamlit app
+
 ├── requirements.txt # Required Python libraries
+
 ├── Procfile # For deployment (Heroku/Render)
+
 ├── movies.pkl # Preprocessed movie metadata
+
 ├── similarity.pkl # Precomputed similarity matrix
+
 ├── tmdb_5000_credits.csv # Raw data
+
 ├── tmdb_5000_movies.csv # Raw data
+
 └── .gitignore
 
 
@@ -62,12 +70,13 @@ movie-recommendation-system/
 
 ### 1. Clone the repo
 
-git clone https://github.com/hulkalan/movie-recommendation-system.git
-cd movie-recommendation-system
+ git clone https://github.com/hulkalan/movie-recommendation-system.git
+ 
+ cd movie-recommendation-system
 
 ---
 
-#### Create virtual environment (optional but recommended)
+#### 2. Create virtual environment (optional but recommended)
 
 python -m venv venv
 venv\Scripts\activate  # On Windows
@@ -75,20 +84,20 @@ source venv/bin/activate  # On Linux/Mac
 
 ---
 
-### Install dependencies
+### 3. Install dependencies
 
 pip install -r requirements.txt
 
 
 ---
 
-### Add your TMDB API Key
+### 4. Add your TMDB API Key
 
 API_KEY = 'your_tmdb_api_key_here
 
 ---
 
-### Run the App
+### 5. Run the App
 
 streamlit run app.py
 
