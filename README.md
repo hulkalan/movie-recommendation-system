@@ -65,7 +65,7 @@ movie-recommendation-system/
 git clone https://github.com/hulkalan/movie-recommendation-system.git
 cd movie-recommendation-system
 
-
+---
 
 #### Create virtual environment (optional but recommended)
 
@@ -73,18 +73,27 @@ python -m venv venv
 venv\Scripts\activate  # On Windows
 source venv/bin/activate  # On Linux/Mac
 
+---
 
 ### Install dependencies
 
 pip install -r requirements.txt
 
+
+---
+
 ### Add your TMDB API Key
 
 API_KEY = 'your_tmdb_api_key_here
 
+---
+
 ### Run the App
 
 streamlit run app.py
+
+
+
 
 #### **Then open the browser at:**
 
